@@ -8,7 +8,7 @@ const TodoInput = () => {
     const {addTodo} = useContext(TodoContext);
 
     const handleChange = (e) => {
-        setTodo(e.target.value);
+        setTodo(e.target.value)
     }
 
     const handleSubmit = (e) => {
